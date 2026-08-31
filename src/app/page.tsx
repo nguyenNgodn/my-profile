@@ -194,7 +194,7 @@ export default function Home() {
                 </div>
                 <div className={styles.infoItem}>
                   <span className={styles.infoLabel}>Hobbies</span>
-                  <span className={styles.infoValue}>Coding, AI Research, Reading, Chess, Exploring Tech</span>
+                  <span className={styles.infoValue}>Football, Swimming, Trekking, Traveling</span>
                 </div>
               </div>
             </div>

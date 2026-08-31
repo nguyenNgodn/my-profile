@@ -17,6 +17,11 @@ const plusJakarta = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   title: "Ngo Ngoc Nguyen - Full Stack Developer Portfolio",
   description: "Portfolio of Ngo Ngoc Nguyen, Web Full Stack Developer with 2 years of experience in React, Next.js, Node.js, Python, and AI-powered systems.",
+  icons: {
+    icon: "/images/Anh.jpeg",
+    shortcut: "/images/Anh.jpeg",
+    apple: "/images/Anh.jpeg",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

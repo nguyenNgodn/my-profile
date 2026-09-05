@@ -76,7 +76,7 @@ export default function Home() {
               priority
             />
           </div>
-          <h1 className={styles.name}>Ngo Ngoc Nguyen</h1>
+          <h1 className={styles.name}>NGO NGOC NGUYEN</h1>
           <p className={styles.title}>Web Full Stack Developer</p>
           <div className={styles.ctaGroup}>
             <a href="#contact" className={styles.btnPrimary}>Hire Me</a>

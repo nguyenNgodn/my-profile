@@ -82,16 +82,6 @@ export default function Home() {
               </a>
             </nav>
           </div>
-<<<<<<< HEAD
-          <h1 className={styles.name}>NGO NGOC NGUYEN</h1>
-          <p className={styles.title}>Web Full Stack Developer</p>
-          <div className={styles.ctaGroup}>
-            <a href="#contact" className={styles.btnPrimary}>Hire Me</a>
-            <a href="#experience" className={styles.btnSecondary}>Resume</a>
-          </div>
-        </div>
-=======
->>>>>>> 09a614c (feat: update 13/9)
 
           <div className={styles.heroContent}>
             <div className={styles.avatarWrapper}>
@@ -111,8 +101,8 @@ export default function Home() {
                 Hire Me
               </a>
               <a
-                href="/cv/Ngo-Ngoc-Nguyen-CV.pdf"
-                download="Ngo-Ngoc-Nguyen-CV.pdf"
+                href="/cv/Fullstack-nguyen-resume.pdf"
+                download="Fullstack-nguyen-resume.pdf"
                 className={styles.btnSecondary}
               >
                 Resume

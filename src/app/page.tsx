@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
+import ProfileChatSection from "@/components/profile-chat/ProfileChatSection";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -67,6 +68,9 @@ export default function Home() {
             <nav className={styles.nav}>
               <a href="#about" className={styles.navLink}>
                 About
+              </a>
+              <a href="#chat" className={styles.navLink}>
+                Chat
               </a>
               <a href="#experience" className={styles.navLink}>
                 Experience
@@ -264,6 +268,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <ProfileChatSection />
 
       {/* ==========================================
           WORK EXPERIENCE SECTION
